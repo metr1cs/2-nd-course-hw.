@@ -1,9 +1,87 @@
-.header-title {
-  color: white;
+@charset "UTF-8";
+.header {
+  background: url("./image/header-index.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 800px;
+  position: absolute;
+}
+.header__title {
+  color: rgb(32, 32, 39);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+}
+.header__text {
+  color: rgb(32, 32, 39);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 24px;
+}
+.header__button {
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  text-align: center;
+  padding: 16px 28px;
+  height: 66px;
+  width: 247px;
+  align-items: center;
+  margin-top: 48px;
+}
+.header__button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 39);
+}
+.header__content {
+  width: 768px;
+  height: 244px;
+  padding-left: 124px;
+  padding-top: 196px;
+}
+.header__scroll {
+  width: 100%;
+  overflow: hidden; /* Скрываем всё, что выходит за пределы контейнера */
+  position: relative;
+  height: 200px; /* Высота контейнера */
+  white-space: nowrap; /* Запрещаем перенос строк */
+  top: 34%;
+}
+.header__scroll-image {
+  display: inline-block; /* Картинки в одной строке */
+  animation: moveLeft 15s linear infinite; /* Анимация: движение влево, 10 секунд, линейно, бесконечно */
+}
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0); /* Начальная позиция */
+  }
+  100% {
+    transform: translateX(-100%); /* Конечная позиция: сдвиг на ширину картинки */
+  }
+}
+
+.content {
+  background: url("./image/gameBlock.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1470px;
 }
 
 body {
-  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: 124px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,7 @@
-@import "header","footer";
+@import "header","footer","content";
 body{
-  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.center{
+  padding-left: 124px;
 }
