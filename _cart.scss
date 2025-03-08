@@ -4,8 +4,35 @@
   background: rgb(255, 255, 255);
   width: 378px;
   height: 473px;
+  margin-top: 72px;
   &__image{
     width: 378px;
     height: 314px;
+    border-radius: 30px;
+  }
+  &__text{
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: left;
+    border-radius: 52.58px;
+    background: rgb(247, 247, 247);
+    width: 76px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px 10px 16px;
+  }
+  &__title{
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    margin-top: 16px;
+  }
+  &__content{
+    padding: 32px 32px 36px 32px;
   }
 }
