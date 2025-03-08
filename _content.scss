@@ -1,0 +1,17 @@
+.content{
+  background: url("./image/gameBlock.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1470px;
+  width: 1440px;
+  &__form{
+
+  }
+  &__title{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+  }
+}
