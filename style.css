@@ -69,6 +69,13 @@
   }
 }
 
+.content {
+  background: url("./image/gameBlock.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1470px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
