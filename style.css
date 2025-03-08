@@ -94,6 +94,12 @@
   text-align: left;
   width: 788px;
   align-items: center;
+  margin-top: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {

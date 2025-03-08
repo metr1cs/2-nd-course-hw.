@@ -1,4 +1,8 @@
-@import "header","footer","content";
+@import "header","footer","content","cart";
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: "Montserrat", sans-serif;
 }
