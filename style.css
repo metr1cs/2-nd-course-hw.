@@ -35,7 +35,7 @@
   height: 66px;
   width: 247px;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 48px;
 }
 .header__button:hover {
   background: rgb(255, 255, 255);
@@ -131,12 +131,8 @@
   font-weight: 500;
   line-height: 110%;
   text-align: left;
-  border-radius: 52.58px;
+  border-radius: 52px;
   background: rgb(247, 247, 247);
-  width: 76px;
-  height: 18px;
-  display: flex;
-  align-items: center;
   padding: 8px 16px 10px 16px;
 }
 .cart__title {
