@@ -165,6 +165,7 @@
   background: url(./image/back-product.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1440px;
 }
 .product__form {
   padding-left: 119px;
