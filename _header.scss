@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   width: 1440px;
   height: 800px;
-  position: absolute;
   &__title {
     color: rgb(32, 32, 39);
     font-size: 64px;
@@ -13,12 +12,13 @@
     text-align: left;
   }
   &__text{
-    color: rgb(32, 32, 39);
+    color: rgb(32, 32, 32);
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
     margin-top: 24px;
+    width: 768px;
     }
   &__button{
       box-sizing: border-box;
@@ -34,37 +34,37 @@
       height: 66px;
       width: 247px;
       align-items: center;
-      margin-top: 48px;
+      margin-top: 80px;
+
       &:hover{
         background: rgb(255,255,255);
         color: rgb(32, 32, 39);
       }
     }
   &__content{
-    width: 768px;
     height: 244px;
     padding-left: 124px;
     padding-top: 196px;
   }
   &__scroll{
     width: 100%;
-    overflow: hidden; /* Скрываем всё, что выходит за пределы контейнера */
+    overflow: hidden;
     position: relative;
-    height: 200px; /* Высота контейнера */
-    white-space: nowrap; /* Запрещаем перенос строк */
+    height: 200px;
+    white-space: nowrap;
     top: 34%;
 
     &-image{
-      display: inline-block; /* Картинки в одной строке */
-      animation: moveLeft 15s linear infinite; /* Анимация: движение влево, 10 секунд, линейно, бесконечно */
+      display: inline-block;
+      animation: moveLeft 15s linear infinite;
     }
   }
   @keyframes moveLeft {
     0% {
-      transform: translateX(0); /* Начальная позиция */
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%); /* Конечная позиция: сдвиг на ширину картинки */
+      transform: translateX(-100%);
     }
   }
 }
