@@ -1,0 +1,26 @@
+.product{
+    background: url(./image/back-product.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__form{
+        padding-left: 119px;
+        padding-top: 94px;
+        row-gap: 32px;
+      }
+    &__title{
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    &-description{
+        border-radius: 30px;
+        box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+        background: rgb(255, 255, 255);
+        width: 1200px;
+        height: 500px;
+    }
+}
