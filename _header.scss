@@ -12,7 +12,7 @@
     text-align: left;
   }
   &__text{
-    color: rgb(32, 32, 39);
+    color: rgb(32, 32, 32);
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -35,13 +35,13 @@
       width: 247px;
       align-items: center;
       margin-top: 48px;
+
       &:hover{
         background: rgb(255,255,255);
         color: rgb(32, 32, 39);
       }
     }
   &__content{
-
     height: 244px;
     padding-left: 124px;
     padding-top: 196px;
